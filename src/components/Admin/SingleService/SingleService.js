@@ -10,7 +10,7 @@ const SingleService = (props) => {
         const status = e.target.value;
 
 
-        fetch(`http://localhost:5000/updateStatus/${_id}`, {
+        fetch(`https://cryptic-savannah-30453.herokuapp.com/updateStatus/${_id}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ status })
@@ -25,7 +25,7 @@ const SingleService = (props) => {
 
     }
     useEffect(() => {
-        fetch(`http://localhost:5000/status/${_id}`)
+        fetch(`https://cryptic-savannah-30453.herokuapp.com/status/${_id}`)
             .then(res => res.json())
             .then(data => setNewStatus(data))
     }, [])

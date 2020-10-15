@@ -28,7 +28,7 @@ const Reviews = () => {
 
 
 
-    fetch('http://localhost:5000/review', {
+    fetch('https://cryptic-savannah-30453.herokuapp.com/review', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

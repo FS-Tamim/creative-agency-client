@@ -13,7 +13,7 @@ const MakeAdmin = () => {
 
 
 
-    fetch('http://localhost:5000/makeAdmin', {
+    fetch('https://cryptic-savannah-30453.herokuapp.com/makeAdmin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

@@ -17,7 +17,7 @@ const Order = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/getServiceData/${serviceId}`)
+        fetch(`https://cryptic-savannah-30453.herokuapp.com/getServiceData/${serviceId}`)
             .then(res => res.json())
             .then(data => setServiceData(data))
     }, [])
@@ -60,7 +60,7 @@ const Order = () => {
         formData.append('price', info.price);
         formData.append('status', status);
 
-        fetch('http://localhost:5000/order', {
+        fetch('https://cryptic-savannah-30453.herokuapp.com/order', {
             method: 'POST',
             body: formData
         })

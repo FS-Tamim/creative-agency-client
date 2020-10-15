@@ -11,7 +11,7 @@ const ServiceList = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/userServices?email=' + loggedInUser.email, {
+        fetch('https://cryptic-savannah-30453.herokuapp.com/userServices?email=' + loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
