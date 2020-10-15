@@ -1,0 +1,34 @@
+.sidebar{
+    background-image: linear-gradient(40deg, white, white);
+    
+}
+.sidebar li{
+    margin-bottom: 2em;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.sidebar svg{
+    margin-right: 5px;
+}
+.logo{
+    width: 150px;
+}
+span{
+    white-space: nowrap;
+    margin-bottom: 2%;
+    color: black;
+}
+svg{
+    color: black;
+   
+}
+.sideBarLink:hover{
+    color: green;
+    text-decoration: none  !important;
+    transform: scale(1.2);
+}
+.link{
+    white-space: nowrap;
+}

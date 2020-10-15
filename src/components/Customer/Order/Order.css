@@ -1,0 +1,60 @@
+.orderMainContainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.orderForm {
+    height: 400px;
+    width: 80%;
+    padding: 2% 10% 10% 2%;
+    background-color: transparent;
+}
+
+.input-box{
+    width: 60%;
+    height: 40px;     
+} 
+.navBar{
+    position: relative;
+    left: 0px;
+    resize: 0;
+}
+.rightPart{
+    background-color: #E5E5E5;
+    height: 100vh;
+    padding: 2% 10% 10% 2%;
+}
+
+.inner-pages-navbar{
+    background-color: white;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+ 
+  .upload-btn{
+    border: 2px solid #009444;
+    color:#009444;
+    background-color:#DEFFED;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .icon{
+    color:#009444;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .orderBtn{
+      background-color: #111430;
+      color:white;
+  }  
+ 

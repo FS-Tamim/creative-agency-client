@@ -1,0 +1,16 @@
+.carouselContainer{
+    background-color: #111430;
+    height: 70vh;
+    margin-top: 10%;
+}
+.carouselHeader{
+    color: white;
+    margin-top: 20px;
+}
+.carouselItem img{
+    width: 90%;
+    height: 50%;
+}
+.mainContainer{
+    margin-top: 7%;
+}

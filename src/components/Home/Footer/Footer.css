@@ -1,0 +1,15 @@
+.footer{
+    background-color:#FBD062 ;
+    height: 840px;
+    margin-top: 15%;
+}
+.footerBtn{
+    background-color: #111430;
+    color: white;
+}
+#textarea{
+    height: 300px;
+}
+.footerYear{
+    margin-top: 10%;
+}

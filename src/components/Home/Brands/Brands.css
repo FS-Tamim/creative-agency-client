@@ -1,0 +1,11 @@
+.brand{
+    border: none;
+}
+.brand img{
+    width: 70%;
+    height: 50%;
+}
+.brands{
+    margin-top: 8%;
+    margin-bottom: 12%;
+}

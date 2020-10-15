@@ -1,0 +1,69 @@
+.mainContainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.addServicesForm {
+    height: 400px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    width: 80%;
+    padding: 2% 10% 10% 2%;
+    background-color: white;
+}
+
+.input-box{
+    border: 2px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 3.33333px;
+    width: 60%;
+    height: 40px;     
+
+} 
+.navBar{
+    position: relative;
+    left: 0px;
+    resize: 0;
+    background-color: blackx;
+}
+
+
+
+.rightPart{
+    background-color: #E5E5E5;
+    height: 100vh;
+    padding: 2% 10% 10% 2%;
+}
+
+.inner-pages-navbar{
+    background-color: white;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-btn{
+    border: 2px solid #009444;
+    color:#009444;
+    background-color:#DEFFED;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .icon{
+    color:#009444;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .orderBtn{
+      background-color: #111430;
+      color:white;
+  }

@@ -1,0 +1,8 @@
+.user-service-card{
+    padding:20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.user-service-card img{
+    border-radius: 50%;
+}

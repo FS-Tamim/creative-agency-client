@@ -1,0 +1,52 @@
+.serviceTitle{
+    font-weight: bold;
+    font-size:20px;
+}
+.serviceCart{
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.side img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.image-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+    margin: auto;
+  }
+  .image {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .image:hover {
+    transform: rotateY(180deg);
+  }
+  .image .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .image .back {
+    
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+
+  .serviceLink:hover{
+        text-decoration:none;
+    
+    }
+    

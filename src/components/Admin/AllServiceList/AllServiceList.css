@@ -1,0 +1,24 @@
+.mainContainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.addServicesForm {
+ 
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    width: 1000px;
+    height: 700px;
+    padding: 2% 10% 10% 2%;
+    background-color: white;
+}
+
+.rightPart{
+    background-color: #E5E5E5;
+    height: 1000px;
+    width: 1400px;
+    padding: 2% 10% 10% 2%;
+}
+
+.inner-pages-navbar{
+    background-color: white;
+}

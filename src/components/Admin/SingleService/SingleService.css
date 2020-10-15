@@ -1,0 +1,9 @@
+.pending:focus{
+    color: red;
+}
+.done:focus{
+    color: green;
+}
+#exampleFormControlSelect1{
+    border:none;
+}

@@ -1,0 +1,12 @@
+.brandLogo{
+    height: 50px;
+    margin-left: 10%;
+}
+li{
+    color: black;
+}
+
+.btnLogin{
+    background-color: #111430;
+    color: white;
+}

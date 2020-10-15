@@ -1,0 +1,35 @@
+.mainContainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.formContainer{
+    width: 60%;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    height: 250px;
+    width: 80%;
+    padding: 2% 10% 10% 2%;
+    background-color: white;
+}
+.input-box{
+    border: 2px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 3.33333px;
+    width: 60%;
+    height: 40px;     
+
+} 
+.navBar{
+    position: relative;
+    left: 0px;
+    resize: 0;
+ 
+}
+.rightPart{
+    background-color: #E5E5E5;
+    height: 100vh;
+    padding: 2% 10% 10% 2%;
+}
+.inner-pages-navbar{
+    background-color: white;
+}
