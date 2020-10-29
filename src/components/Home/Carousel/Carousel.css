@@ -14,3 +14,10 @@
 .mainContainer{
     margin-top: 7%;
 }
+
+.slick-dots li.slick-active button:before {
+    color:#FBD062 !important;
+}
+.slick-dots li.slick button:before {
+    color:#242A65!important;
+}

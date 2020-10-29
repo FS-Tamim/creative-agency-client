@@ -34,10 +34,10 @@ const AllServiceList = () => {
 
           <div className="rightPart">
 
-            <div className="addServicesForm  mt-5">
-              <table class="table table-borderless">
+            <div className="addServicesForm table-responsive  mt-5">
+              <table className="table table-borderless">
                 <thead>
-                  <tr class="table-dark">
+                  <tr className="table-dark">
                     <th scope="col">Name</th>
                     <th scope="col">Email ID</th>
                     <th scope="col">Service</th>

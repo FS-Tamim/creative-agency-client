@@ -52,9 +52,7 @@ function App() {
          <PrivateRoute path='/order/:serviceId'>
             <Order></Order>
           </PrivateRoute>
-          <PrivateRoute path='/order'>
-            <Order></Order>
-          </PrivateRoute>
+         
           <PrivateRoute path='/review'>
             <Reviews></Reviews>
           </PrivateRoute>

@@ -51,7 +51,7 @@ const SideBar = () => {
 
                     </div> : <div>
                             <li>
-                                <Link className="link" to="/order">
+                                <Link className="link" to="/home">
                                     <FontAwesomeIcon icon={faShoppingCart} /> <span className="sideBarLink">Order</span>
                                 </Link>
                             </li>
